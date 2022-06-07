@@ -8,16 +8,22 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="icon" href="images/icon_soleil.png">
-	<link rel="stylesheet" href="css/bootstrap.css">"
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+
 </head>
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200"> 
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+
+
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
@@ -788,26 +794,31 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="https://formsubmit.co/2d58df986ecd3703dd2f46edfe61eedb " method="POST" class="site-form">
-						<h3 class="mb-5">Get In Touch</h3>
+					<form action="https://script.google.com/macros/s/AKfycbwy2C-7mTgqfd44zqMu_4dsXywdQN3_h1CEYQLhCHAWxeyVBtXZVuTlFck82VZ3COU3EQ/exec" method="POST" class="site-form" data-email="moumni.chams@gmail.com">
+						<div>
+						<h3 class="mb-5">Welcome ! </h3>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+							<input type="text" name="name" class="form-control px-3 py-4" placeholder="Your Name">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+							<input type="email" name="email" class="form-control px-3 py-4" placeholder="Your Email" required>
 						</div>
 						<div class="form-group">
-							<input type="phone" class="form-control px-3 py-4" placeholder="Your Phone">
+							<input type="phone" name="phone" class="form-control px-3 py-4" placeholder="Your Phone">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+							<textarea name="message" class="form-control px-3 py-4"cols="30" rows="3" placeholder="Write a Message"></textarea>
 						</div>
-						<div class="form-group">
 							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
 						</div>
+					    </div>
+						<div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+							<h1>Thanks for contacting me !</h1>
+							<h1>*******</h1>
+						  </div>
 					</form>
 				</div>
-				<div class="col-md-5 pl-md-5">
+			<!--	<div class="col-md-5 pl-md-5">
 					<h3 class="mb-5">My Contact Details</h3>
 					<ul class="site-contact-details">
 						<li>
@@ -815,7 +826,7 @@
 							moumni.chams@gmail.com
 						</li>
 					</ul>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</section>
@@ -835,7 +846,8 @@
 			<div class="row mb-5">
 				<div class="col-md-12 text-center">
 					<p>
-						<a href="https://www.facebook.com/chamsrkm" class="social-item"><span class="icon-facebook2"></span></a>
+					 
+						<a href="mailto:moumnichams@gmailcom" class="social-item"><span class="icon-bubble"></span></a>
 						<a href="https://www.instagram.com/ch.a.m.s/" class="social-item"><span class="icon-instagram2"></span></a>
 						<a href="https://www.linkedin.com/in/chamsmoumni108/" class="social-item"><span class="icon-linkedin2"></span></a>
 						<a href="https://github.com/Chams-M" class="social-item"><span class="icon-github"></span></a>
@@ -847,10 +859,10 @@
 			
 		</div>
 	</footer>
+    
 
 
-
-
+    
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/vendor/popper.min.js"></script>
@@ -864,6 +876,7 @@
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
+	
 
 	<!-- Google Map -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
